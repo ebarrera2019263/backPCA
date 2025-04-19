@@ -73,7 +73,8 @@ namespace EmpleadosAPI.Controllers
         public IActionResult GetEmpleado(int id)
         {
             var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            if (userIdClaim == null) return Unauthorized();
+            if (userIdClaim == null)
+                return Unauthorized("No se encontró el ID del usuario autenticado");
 
             var userId = int.Parse(userIdClaim);
 
@@ -82,12 +83,16 @@ namespace EmpleadosAPI.Controllers
                 .ThenInclude(ur => ur.Rol)
                 .FirstOrDefault(u => u.UsuarioID == userId);
 
-            if (usuario == null) return Unauthorized();
+            if (usuario == null)
+                return Unauthorized("Usuario no válido");
 
-            var esAdmin = usuario.Roles?.Any(r => r.Rol?.NombreRol == "Administrador") ?? false;
+            var esAdmin = usuario.Roles != null &&
+                          usuario.Roles.Any(r => r?.Rol != null && r.Rol.NombreRol == "Administrador");
 
             if (!esAdmin && usuario.EmpleadoID != id)
+            {
                 return Forbid("Solo puedes ver tu información.");
+            }
 
             var empleado = _context.Empleados
                 .Include(e => e.Usuario)
@@ -95,7 +100,8 @@ namespace EmpleadosAPI.Controllers
                         .ThenInclude(r => r.Rol)
                 .FirstOrDefault(e => e.EmpleadoID == id);
 
-            if (empleado == null) return NotFound("Empleado no encontrado");
+            if (empleado == null)
+                return NotFound("Empleado no encontrado");
 
             return Ok(empleado);
         }
@@ -104,13 +110,15 @@ namespace EmpleadosAPI.Controllers
         [Authorize(Roles = "Administrador")]
         public IActionResult CrearEmpleado([FromBody] EmpleadoRequestDto dto)
         {
-            if (!ModelState.IsValid) return BadRequest(ModelState);
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
 
             if (string.IsNullOrWhiteSpace(dto.Usuario?.Rol))
                 return BadRequest("Debes especificar el rol para el nuevo usuario.");
 
             var rol = _context.Roles.FirstOrDefault(r => r.NombreRol == dto.Usuario.Rol);
-            if (rol == null) return BadRequest($"El rol '{dto.Usuario.Rol}' no existe.");
+            if (rol == null)
+                return BadRequest($"El rol '{dto.Usuario.Rol}' no existe.");
 
             var usuario = new Usuario
             {
@@ -145,26 +153,10 @@ namespace EmpleadosAPI.Controllers
         }
 
         [HttpPut("{id}")]
-        [Authorize]
+        [Authorize(Roles = "Administrador,Editor")]
         public IActionResult ActualizarEmpleado(int id, [FromBody] EmpleadoUpdateDto dto)
         {
-            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            if (userIdClaim == null) return Unauthorized();
-
-            var userId = int.Parse(userIdClaim);
-            var usuario = _context.Usuarios
-                .Include(u => u.Roles).ThenInclude(ur => ur.Rol)
-                .FirstOrDefault(u => u.UsuarioID == userId);
-
-            if (usuario == null) return Unauthorized();
-
-            var esAdminOEditor = usuario.Roles?.Any(r =>
-                r.Rol != null && (r.Rol.NombreRol == "Administrador" || r.Rol.NombreRol == "Editor")) ?? false;
-
-            if (!esAdminOEditor && usuario.EmpleadoID != id)
-                return Forbid("No tienes permiso para modificar este empleado.");
-
-            var empleado = _context.Empleados.FirstOrDefault(e => e.EmpleadoID == id);
+            var empleado = _context.Empleados.Include(e => e.Usuario).FirstOrDefault(e => e.EmpleadoID == id);
             if (empleado == null) return NotFound();
 
             empleado.Nombre = dto.Nombre;
@@ -192,46 +184,6 @@ namespace EmpleadosAPI.Controllers
             empleado.EstadoLaboral = "Inactivo";
             _context.SaveChanges();
 
-            return NoContent();
-        }
-
-        [HttpGet("perfil")]
-        [Authorize]
-        public IActionResult ObtenerPerfil()
-        {
-            var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? "0");
-            var usuario = _context.Usuarios.Include(u => u.Empleado).FirstOrDefault(u => u.UsuarioID == userId);
-
-            if (usuario?.Empleado == null)
-                return NotFound("No se encontró el perfil.");
-
-            return Ok(usuario.Empleado);
-        }
-
-        [HttpPut("perfil")]
-        [Authorize]
-        public IActionResult ActualizarPerfil([FromBody] EmpleadoUpdateDto dto)
-        {
-            var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)?.Value ?? "0");
-            var usuario = _context.Usuarios.Include(u => u.Empleado).FirstOrDefault(u => u.UsuarioID == userId);
-
-            if (usuario?.Empleado == null)
-                return NotFound("Empleado no encontrado");
-
-            var empleado = usuario.Empleado;
-
-            empleado.Nombre = dto.Nombre;
-            empleado.FechaNacimiento = dto.FechaNacimiento;
-            empleado.Direccion = dto.Direccion;
-            empleado.Telefono = dto.Telefono;
-            empleado.CorreoElectronico = dto.CorreoElectronico;
-            empleado.Puesto = dto.Puesto;
-            empleado.Departamento = dto.Departamento;
-            empleado.FechaContratacion = dto.FechaContratacion;
-            empleado.Salario = dto.Salario;
-            empleado.EstadoLaboral = dto.EstadoLaboral;
-
-            _context.SaveChanges();
             return NoContent();
         }
     }
