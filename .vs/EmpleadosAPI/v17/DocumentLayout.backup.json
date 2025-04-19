@@ -1,0 +1,280 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\appsettings.json||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:appsettings.json||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\Services\\AuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\AuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\Data\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\Models\\UsuarioRol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\UsuarioRol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\Controllers\\EmpleadosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\EmpleadosController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\DTOs\\EmpleadoConRolDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\EmpleadoConRolDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\Models\\Usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\Models\\Rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\Models\\Empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\DTOs\\LoginRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\LoginRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\DTOs\\EmpleadoUpdateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\EmpleadoUpdateDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\DTOs\\EmpleadoRequestDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\EmpleadoRequestDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\Filters\\AuditoriaFilter.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Filters\\AuditoriaFilter.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\EmpleadosAPI\\Models\\ UsuarioRol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\EmpleadosAPI.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmpleadosAPI.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuarioRol.cs",
+              "DocumentMoniker": "C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\Models\\UsuarioRol.cs",
+              "RelativeDocumentMoniker": "Models\\UsuarioRol.cs",
+              "ToolTip": "C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\Models\\UsuarioRol.cs",
+              "RelativeToolTip": "Models\\UsuarioRol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T20:10:53.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T04:34:46.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T04:35:33.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAB4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T04:01:30.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-29T04:45:38.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmpleadosController.cs",
+              "DocumentMoniker": "C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\Controllers\\EmpleadosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmpleadosController.cs",
+              "ToolTip": "C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\Controllers\\EmpleadosController.cs",
+              "RelativeToolTip": "Controllers\\EmpleadosController.cs",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAIwLkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T04:29:28.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T04:32:11.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\Models\\Rol.cs",
+              "RelativeDocumentMoniker": "Models\\Rol.cs",
+              "ToolTip": "C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\Models\\Rol.cs",
+              "RelativeToolTip": "Models\\Rol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T04:32:22.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\Models\\Empleado.cs",
+              "RelativeDocumentMoniker": "Models\\Empleado.cs",
+              "ToolTip": "C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\Models\\Empleado.cs",
+              "RelativeToolTip": "Models\\Empleado.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T04:31:40.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmpleadoConRolDto.cs",
+              "DocumentMoniker": "C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\DTOs\\EmpleadoConRolDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\EmpleadoConRolDto.cs",
+              "ToolTip": "C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\DTOs\\EmpleadoConRolDto.cs",
+              "RelativeToolTip": "DTOs\\EmpleadoConRolDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T04:39:13.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\DTOs\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\DTOs\\LoginRequest.cs",
+              "RelativeToolTip": "DTOs\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T04:35:04.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmpleadoUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\DTOs\\EmpleadoUpdateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\EmpleadoUpdateDto.cs",
+              "ToolTip": "C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\DTOs\\EmpleadoUpdateDto.cs",
+              "RelativeToolTip": "DTOs\\EmpleadoUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T01:49:17.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmpleadoRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\DTOs\\EmpleadoRequestDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\EmpleadoRequestDto.cs",
+              "ToolTip": "C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\DTOs\\EmpleadoRequestDto.cs",
+              "RelativeToolTip": "DTOs\\EmpleadoRequestDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T01:32:02.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuditoriaFilter.cs",
+              "DocumentMoniker": "C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\Filters\\AuditoriaFilter.cs",
+              "RelativeDocumentMoniker": "Filters\\AuditoriaFilter.cs",
+              "ToolTip": "C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\Filters\\AuditoriaFilter.cs",
+              "RelativeToolTip": "Filters\\AuditoriaFilter.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T03:40:11.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": " UsuarioRol.cs",
+              "DocumentMoniker": "C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\EmpleadosAPI\\Models\\ UsuarioRol.cs",
+              "RelativeDocumentMoniker": "..\\..\\EmpleadosAPI\\Models\\ UsuarioRol.cs",
+              "ToolTip": "C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\EmpleadosAPI\\Models\\ UsuarioRol.cs",
+              "RelativeToolTip": "..\\..\\EmpleadosAPI\\Models\\ UsuarioRol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T04:32:34.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EmpleadosAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\EmpleadosAPI.csproj",
+              "RelativeDocumentMoniker": "EmpleadosAPI.csproj",
+              "ToolTip": "C:\\Users\\CORBANOR\\OneDrive - Corporaci\u00F3n Bananera del norte\\Escritorio\\copia api chance\\EmpleadosAPI\\EmpleadosAPI.csproj",
+              "RelativeToolTip": "EmpleadosAPI.csproj",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-29T04:52:13.071Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
